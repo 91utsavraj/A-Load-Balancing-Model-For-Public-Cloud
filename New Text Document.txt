@@ -1,6 +1,0 @@
-Begin  While job do     
-searchBestPartition(job);    
-If partitionState==idle ||partitionState==normal Then Send job to Partition;   
-Else     
-Search for another Partition;  
- End ifEnd while               
